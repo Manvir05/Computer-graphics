@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/SDL_hidapi_combined.c \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../../dynapi/SDL_dynapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include-config-debug/SDL_config.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_platform.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/begin_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/close_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_assert.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_stdinc.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_log.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_joystick.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_error.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_guid.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_gamecontroller.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_rwops.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_sensor.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_atomic.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_hints.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_mutex.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_hidapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../usb_ids.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../SDL_sysjoystick.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/joystick/hidapi/../SDL_joystick_c.h

@@ -1,0 +1,90 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf447dda390b8390e5eea257532c0af484"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cfd124b8f951f56b74b1b2c8535be2b64f"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cfdf6d6e6e583691dd2e1542034bf6683e"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf92dd9148b07751a7b9ef54d8ba468fd8"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cff386c87c0ad0ad0e57bfc89d77a3fae2"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf5e9a088c8e96961106da85025f15fd9a"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf7757c8bb29795c1ee3f04ef40fe6fe55"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf8e144da1850daf7d472e378e3a777c15"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cfbaf4e62eabc932d26b6c95b5ad273256"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cfe9270e5920ceea0615c9983cdcaf5e89"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cfa87fed3f8602ccba8e7d6fa445c98f35"
+    },
+    {
+      "guid" : "43581345f3cde087819ecf97ee5ea6cf3b8b95126e4ff509b08fa2dd7bed13b8"
+    }
+  ],
+  "containerPath" : "/Users/manvirkaur/Desktop/CG2023Student 2/build/ComputerGraphics.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/manvirkaur/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/manvirkaur/Library/Developer/Xcode/DerivedData/ComputerGraphics-ghpjxdzzdnhdhjeaznmoiirtwrwy/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/manvirkaur/Library/Developer/Xcode/DerivedData/ComputerGraphics-ghpjxdzzdnhdhjeaznmoiirtwrwy/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

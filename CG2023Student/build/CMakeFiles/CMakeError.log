@@ -1,0 +1,1845 @@
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4147c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4147c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 81175267ba10b403d09ec6a7fa60e833
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/XCBuildData/81175267ba10b403d09ec6a7fa60e833-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4147c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/Debug -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/cmTC_4147c.LinkFileList (in target 'cmTC_4147c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/cmTC_4147c.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/build/cmTC_4147c.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dLbFcX/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4147c' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b2a03 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b2a03 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: b4e706818d2fc3934f1255db4746842a
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/XCBuildData/b4e706818d2fc3934f1255db4746842a-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b2a03' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -mpreferred-stack-boundary\=2 -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/src.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/src.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/src.o
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/cmTC_b2a03.LinkFileList (in target 'cmTC_b2a03' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/cmTC_b2a03.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/build/cmTC_b2a03.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-b9e9Vp/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b2a03' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3dfcd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3dfcd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: e70ebef172332140b3eafe2ff6bbb016
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/XCBuildData/e70ebef172332140b3eafe2ff6bbb016-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3dfcd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_ALTIVEC_H_HDR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -maltivec -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/src.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/src.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/src.o
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/src.c:2:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:13:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:46:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:47:5: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:47:29: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                            ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:47:53: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                                                    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:49:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:50:10: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+         ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:50:36: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+                                   ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:51:10: error: unknown type name 'vector'
+         vector unsigned char __c);
+         ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:53:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:53:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:53:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:54:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:54:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:54:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:56:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:56:54: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                                                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:57:54: error: unknown type name 'vector'
+                                                     vector signed short __b,
+                                                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:58:54: error: unknown type name 'vector'
+                                                     vector unsigned char __c);
+                                                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:60:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/cmTC_3dfcd.LinkFileList (in target 'cmTC_3dfcd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/cmTC_3dfcd.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/build/cmTC_3dfcd.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-ph848K/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3dfcd' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b8e63 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b8e63 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 3055f19135c63a5d9d007671ad8188da
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/XCBuildData/3055f19135c63a5d9d007671ad8188da-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/cmTC_b8e63.LinkFileList (in target 'cmTC_b8e63' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/cmTC_b8e63.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b8e63' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_ALTIVEC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -maltivec -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/src.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/src.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/src.o
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/src.c:3:22: error: implicit declaration of function 'vec_splat_u32' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+              return vec_splat_u32(0);
+                     ^
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/build/cmTC_b8e63.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byLvOa/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b8e63' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2f363 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2f363 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c43a688190e0672140d03e2f7f0ef881
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/XCBuildData/c43a688190e0672140d03e2f7f0ef881-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/cmTC_2f363.LinkFileList (in target 'cmTC_2f363' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/cmTC_2f363.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_2f363' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CheckIncludeFile.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/build/cmTC_2f363.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jWVQMI/CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_2f363' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the include file linux/input.h exists failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_48665 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_48665 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: e599f93ada69fb81b85beaefbdf0fc93
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/XCBuildData/e599f93ada69fb81b85beaefbdf0fc93-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_48665' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CheckIncludeFile.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CheckIncludeFile.c:1:10: fatal error: 'linux/input.h' file not found
+#include <linux/input.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/cmTC_48665.LinkFileList (in target 'cmTC_48665' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/cmTC_48665.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/build/cmTC_48665.build/Debug/Objects-normal/x86_64/CheckIncludeFile.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-dEC9qS/CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_48665' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the _strrev exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_047b1 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_047b1 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c3f9d48a39d4e7d2c617058ce416d142
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/XCBuildData/c3f9d48a39d4e7d2c617058ce416d142-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/cmTC_047b1.LinkFileList (in target 'cmTC_047b1' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/cmTC_047b1.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_047b1' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
+  return ((int*)(&_strrev))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/build/cmTC_047b1.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-qHS7I8/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_047b1' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strupr exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b426e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b426e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 9f275ba4b66bcdb83d6fad30c09e5c50
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/XCBuildData/9f275ba4b66bcdb83d6fad30c09e5c50-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b426e' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
+  return ((int*)(&_strupr))[argc];
+                  ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/cmTC_b426e.LinkFileList (in target 'cmTC_b426e' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/cmTC_b426e.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/build/cmTC_b426e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-byvOKJ/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b426e' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a8fce -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a8fce -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: bb474123cca571f19e241629ed08d611
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/XCBuildData/bb474123cca571f19e241629ed08d611-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/cmTC_a8fce.LinkFileList (in target 'cmTC_a8fce' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/cmTC_a8fce.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_a8fce' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
+  return ((int*)(&_strlwr))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/build/cmTC_a8fce.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-jHVP4C/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_a8fce' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the itoa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_67c94 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_67c94 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: ca54e596d62acbfe7c1669ba89216491
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/XCBuildData/ca54e596d62acbfe7c1669ba89216491-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/cmTC_67c94.LinkFileList (in target 'cmTC_67c94' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/cmTC_67c94.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_67c94' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
+  return ((int*)(&itoa))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/build/cmTC_67c94.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-bBsUYB/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_67c94' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54de7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54de7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 08a7eac560c40a2958878dcb29d10805
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/XCBuildData/08a7eac560c40a2958878dcb29d10805-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54de7' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
+  return ((int*)(&_ltoa))[argc];
+                  ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/cmTC_54de7.LinkFileList (in target 'cmTC_54de7' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/cmTC_54de7.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/build/cmTC_54de7.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-Yc5cc5/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54de7' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d8b09 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d8b09 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 51b939ea4bee66e5e278bfef8c5b3196
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/XCBuildData/51b939ea4bee66e5e278bfef8c5b3196-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/cmTC_d8b09.LinkFileList (in target 'cmTC_d8b09' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/cmTC_d8b09.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d8b09' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
+  return ((int*)(&_uitoa))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/build/cmTC_d8b09.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-RLZnX2/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d8b09' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_65d8d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_65d8d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 37b556402918a552b77ef54caa3daf29
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/XCBuildData/37b556402918a552b77ef54caa3daf29-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/cmTC_65d8d.LinkFileList (in target 'cmTC_65d8d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/cmTC_65d8d.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_65d8d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
+  return ((int*)(&_ultoa))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/build/cmTC_65d8d.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-JhXpQv/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_65d8d' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_95c1f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_95c1f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 1c2a3c2e4553ad352a19c7bbe9d7ae1e
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/XCBuildData/1c2a3c2e4553ad352a19c7bbe9d7ae1e-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/cmTC_95c1f.LinkFileList (in target 'cmTC_95c1f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/cmTC_95c1f.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_95c1f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
+  return ((int*)(&_i64toa))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/build/cmTC_95c1f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-5E5LEo/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_95c1f' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d0863 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d0863 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 3659c050b4c06cc4e2a218a87b908503
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/XCBuildData/3659c050b4c06cc4e2a218a87b908503-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/cmTC_d0863.LinkFileList (in target 'cmTC_d0863' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/cmTC_d0863.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d0863' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
+  return ((int*)(&_ui64toa))[argc];
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/build/cmTC_d0863.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-lEfC3L/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d0863' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3e7d3 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3e7d3 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 44eb40150daedfffed746d7eca3909f7
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/XCBuildData/44eb40150daedfffed746d7eca3909f7-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3e7d3' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
+  return ((int*)(&_stricmp))[argc];
+                  ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/cmTC_3e7d3.LinkFileList (in target 'cmTC_3e7d3' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/cmTC_3e7d3.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/build/cmTC_3e7d3.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-PbeaNm/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3e7d3' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6a848 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6a848 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 33a0fc79d04b16bb892e006b92140470
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/XCBuildData/33a0fc79d04b16bb892e006b92140470-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_6a848' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&_strnicmp))[argc];
+                  ^~~~~~~~~
+                  strncmp
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CheckSymbolExists.c:5:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/string.h:84:6: note: 'strncmp' declared here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+         ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/cmTC_6a848.LinkFileList (in target 'cmTC_6a848' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/cmTC_6a848.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/build/cmTC_6a848.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-cXJLCJ/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_6a848' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4e74f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4e74f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: edb6d1cb8d8ef563460d44809897405b
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/XCBuildData/edb6d1cb8d8ef563460d44809897405b-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/cmTC_4e74f.LinkFileList (in target 'cmTC_4e74f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/cmTC_4e74f.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4e74f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
+  return ((int*)(&_wcsdup))[argc];
+                  ^~~~~~~
+                  wcsdup
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CheckSymbolExists.c:7:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wchar.h:199:10: note: 'wcsdup' declared here
+wchar_t *wcsdup(const wchar_t *) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/build/cmTC_4e74f.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-0CGHrC/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4e74f' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_151ed -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_151ed -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 2d581d96da1e41254f499d72dec38b9a
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/XCBuildData/2d581d96da1e41254f499d72dec38b9a-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_151ed' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
+  return ((int*)(&_wcsicmp))[argc];
+                  ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/cmTC_151ed.LinkFileList (in target 'cmTC_151ed' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/cmTC_151ed.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/build/cmTC_151ed.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-6TgX2E/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_151ed' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_88e01 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_88e01 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 161486e894da508159d5e9dcf843fd3c
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/XCBuildData/161486e894da508159d5e9dcf843fd3c-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_88e01' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
+  return ((int*)(&_wcsnicmp))[argc];
+                  ^~~~~~~~~
+                  wcsncmp
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CheckSymbolExists.c:7:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wchar.h:134:5: note: 'wcsncmp' declared here
+int     wcsncmp(const wchar_t *, const wchar_t *, size_t);
+        ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/cmTC_88e01.LinkFileList (in target 'cmTC_88e01' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/cmTC_88e01.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/build/cmTC_88e01.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-4QdXeg/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_88e01' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fopen64 exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54c3e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54c3e -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: b005f32dcc87e7818fbfeb4cf1ece276
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/XCBuildData/b005f32dcc87e7818fbfeb4cf1ece276-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/cmTC_54c3e.LinkFileList (in target 'cmTC_54c3e' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/cmTC_54c3e.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54c3e' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+  return ((int*)(&fopen64))[argc];
+                  ^~~~~~~
+                  fopen
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CheckSymbolExists.c:6:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/stdio.h:153:7: note: 'fopen' declared here
+FILE    *fopen(const char * __restrict __filename, const char * __restrict __mode) __DARWIN_ALIAS_STARTING(__MAC_10_6, __IPHONE_2_0, __DARWIN_ALIAS(fopen));
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/build/cmTC_54c3e.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-KRPRqf/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54c3e' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_36157 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_36157 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: a1a8a8b495c9731416c5420e2c845d2b
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/XCBuildData/a1a8a8b495c9731416c5420e2c845d2b-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/cmTC_36157.LinkFileList (in target 'cmTC_36157' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/cmTC_36157.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_36157' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+  return ((int*)(&fseeko64))[argc];
+                  ^~~~~~~~
+                  fseeko
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CheckSymbolExists.c:6:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/stdio.h:337:6: note: 'fseeko' declared here
+int      fseeko(FILE * __stream, off_t __offset, int __whence);
+         ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/build/cmTC_36157.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-sHvPTm/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_36157' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getauxval exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54001 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_54001 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 7cbce19634c7855e1edb3a467fee1798
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/XCBuildData/7cbce19634c7855e1edb3a467fee1798-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/cmTC_54001.LinkFileList (in target 'cmTC_54001' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/cmTC_54001.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54001' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
+#include <sys/auxv.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/build/cmTC_54001.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-gXe3nD/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_54001' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_85561 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_85561 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: ca4f0f6e26a997f71fcba7c33ae84f8e
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/XCBuildData/ca4f0f6e26a997f71fcba7c33ae84f8e-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/cmTC_85561.LinkFileList (in target 'cmTC_85561' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/cmTC_85561.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_85561' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CheckSymbolExists.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
+#include <sys/auxv.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/build/cmTC_85561.build/Debug/Objects-normal/x86_64/CheckSymbolExists.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-DWcfDe/CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_85561' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e207b -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e207b -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: d1265bbc798b5cbe13efade74ec6b0b1
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/XCBuildData/d1265bbc798b5cbe13efade74ec6b0b1-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/EagerLinkingTBDs
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_e207b' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_SEM_TIMEDWAIT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -D_THREAD_SAFE -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/src.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/src.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c:5:19: error: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                  sem_timedwait(NULL, NULL);
+                  ^
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c:5:19: note: did you mean 'sem_trywait'?
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c:3:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/semaphore.h:29:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/semaphore.h:58:5: note: 'sem_trywait' declared here
+int sem_trywait(sem_t *);
+    ^
+1 error generated.
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/cmTC_e207b.LinkFileList (in target 'cmTC_e207b' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/cmTC_e207b.LinkFileList
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/build/cmTC_e207b.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-XkyeGy/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_e207b' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_610d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_610d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 04ca0607cd483c88c8c65fc2a0552b52
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/XCBuildData/04ca0607cd483c88c8c65fc2a0552b52-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/cmTC_610d5.LinkFileList (in target 'cmTC_610d5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/cmTC_610d5.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/HAVE_PTHREAD_NP_H.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/HAVE_PTHREAD_NP_H.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_610d5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -D_THREAD_SAFE -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/HAVE_PTHREAD_NP_H.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/HAVE_PTHREAD_NP_H.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/HAVE_PTHREAD_NP_H.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/HAVE_PTHREAD_NP_H.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/build/cmTC_610d5.build/Debug/Objects-normal/x86_64/HAVE_PTHREAD_NP_H.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-nJYsYa/HAVE_PTHREAD_NP_H.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_610d5' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP failed with the following output:
+Change Dir: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_329dd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_329dd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 730a526357159ca47b43466a47e6a429
+Build description path: /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/XCBuildData/730a526357159ca47b43466a47e6a429-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/Debug
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/Debug
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build
+
+CreateBuildDirectory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/EagerLinkingTBDs
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/cmTC_329dd.LinkFileList (in target 'cmTC_329dd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz
+    write-file /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/cmTC_329dd.LinkFileList
+
+CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_329dd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos12.6 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_PTHREAD_SETNAME_NP -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/Debug/include -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/DerivedSources-normal/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/DerivedSources/x86_64 -I/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/DerivedSources -F/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/Debug -idirafter /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/video/khronos -D_THREAD_SAFE -MMD -MT dependencies -MF /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/src.dia -c /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/src.c -o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/src.o
+/Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/src.c:5:50: error: too many arguments to function call, expected 1, have 2
+              pthread_setname_np(pthread_self(), "");
+              ~~~~~~~~~~~~~~~~~~                 ^~
+In file included from /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/src.c:3:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/pthread.h:535:5: note: 'pthread_setname_np' declared here
+int     pthread_setname_np(const char*);
+        ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/build/cmTC_329dd.build/Debug/Objects-normal/x86_64/src.o /Users/manvirkaur/Desktop/CG2023Student/build/CMakeFiles/CMakeScratch/TryCompile-EWgcbz/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_329dd' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+            #define _GNU_SOURCE 1
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              pthread_setname_np(pthread_self(), "");
+              return 0;
+            }
+

@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+sdl_headers_copy in ComputerGraphics, no dependencies
+SDL2main in ComputerGraphics, depends on:
+sdl_headers_copy in ComputerGraphics (explicit)
+SDL2 in ComputerGraphics, depends on:
+sdl_headers_copy in ComputerGraphics (explicit)
+libglew_static in ComputerGraphics, no dependencies
+ZERO_CHECK in ComputerGraphics, no dependencies
+ComputerGraphics in ComputerGraphics, depends on:
+SDL2main in ComputerGraphics (explicit)
+SDL2 in ComputerGraphics (explicit)
+libglew_static in ComputerGraphics (explicit)
+ZERO_CHECK in ComputerGraphics (explicit)

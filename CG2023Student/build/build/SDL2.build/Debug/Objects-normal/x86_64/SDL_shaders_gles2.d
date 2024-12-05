@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/render/opengles2/SDL_shaders_gles2.c \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/render/opengles2/../../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/render/opengles2/../../dynapi/SDL_dynapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/render/opengles2/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include-config-debug/SDL_config.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_platform.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/begin_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/close_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_assert.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_stdinc.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_log.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_hints.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_video.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_pixels.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_endian.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_rect.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_error.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_rwops.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_surface.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_blendmode.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_opengles2.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/render/opengles2/SDL_shaders_gles2.h

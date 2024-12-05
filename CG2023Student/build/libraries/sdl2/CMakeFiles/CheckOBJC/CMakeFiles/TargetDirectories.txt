@@ -1,0 +1,2 @@
+/Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/CMakeFiles/CheckOBJC/CMakeFiles/ALL_BUILD.dir
+/Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/CMakeFiles/CheckOBJC/CMakeFiles/ZERO_CHECK.dir

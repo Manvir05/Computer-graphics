@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/SDL_hidapi.c \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/../dynapi/SDL_dynapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/../dynapi/SDL_dynapi_overrides.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include-config-debug/SDL_config.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_platform.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/begin_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/close_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_assert.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_stdinc.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_log.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_loadso.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_error.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_hidapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_thread.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_atomic.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_mutex.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_timer.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/SDL_hidapi_c.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/../core/linux/SDL_udev.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/../core/linux/../../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/mac/hid.c \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/mac/../../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_hints.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/hidapi/mac/../hidapi/hidapi.h

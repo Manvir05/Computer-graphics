@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/SDL_haptic.c \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/../dynapi/SDL_dynapi.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/../dynapi/SDL_dynapi_overrides.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include-config-debug/SDL_config.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_platform.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/begin_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/close_code.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_assert.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_stdinc.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_log.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/SDL_syshaptic.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_haptic.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_error.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_joystick.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_guid.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/SDL_haptic_c.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/../joystick/SDL_joystick_c.h \
+  /Users/manvirkaur/Desktop/CG2023Student/libraries/sdl2/src/haptic/../joystick/../SDL_internal.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_gamecontroller.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_rwops.h \
+  /Users/manvirkaur/Desktop/CG2023Student/build/libraries/sdl2/include/SDL_sensor.h
